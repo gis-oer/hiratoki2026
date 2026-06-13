@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+<title>README</title>
+
+
+<style type="text/css">
+body {
+  font-family: Helvetica, arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.6;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: white;
+  padding: 30px; }
+
+body > *:first-child {
+  margin-top: 0 !important; }
+body > *:last-child {
+  margin-bottom: 0 !important; }
+
+a {
+  color: #4183C4; }
+a.absent {
+  color: #cc0000; }
+a.anchor {
+  display: block;
+  padding-left: 30px;
+  margin-left: -30px;
+  cursor: pointer;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0; }
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 20px 0 10px;
+  padding: 0;
+  font-weight: bold;
+  -webkit-font-smoothing: antialiased;
+  cursor: text;
+  position: relative; }
+
+h1:hover a.anchor, h2:hover a.anchor, h3:hover a.anchor, h4:hover a.anchor, h5:hover a.anchor, h6:hover a.anchor {
+  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA09pVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNiAoMTMuMCAyMDEyMDMwNS5tLjQxNSAyMDEyLzAzLzA1OjIxOjAwOjAwKSAgKE1hY2ludG9zaCkiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6OUM2NjlDQjI4ODBGMTFFMTg1ODlEODNERDJBRjUwQTQiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6OUM2NjlDQjM4ODBGMTFFMTg1ODlEODNERDJBRjUwQTQiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDo5QzY2OUNCMDg4MEYxMUUxODU4OUQ4M0REMkFGNTBBNCIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDo5QzY2OUNCMTg4MEYxMUUxODU4OUQ4M0REMkFGNTBBNCIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PsQhXeAAAABfSURBVHjaYvz//z8DJYCRUgMYQAbAMBQIAvEqkBQWXI6sHqwHiwG70TTBxGaiWwjCTGgOUgJiF1J8wMRAIUA34B4Q76HUBelAfJYSA0CuMIEaRP8wGIkGMA54bgQIMACAmkXJi0hKJQAAAABJRU5ErkJggg==) no-repeat 10px center;
+  text-decoration: none; }
+
+h1 tt, h1 code {
+  font-size: inherit; }
+
+h2 tt, h2 code {
+  font-size: inherit; }
+
+h3 tt, h3 code {
+  font-size: inherit; }
+
+h4 tt, h4 code {
+  font-size: inherit; }
+
+h5 tt, h5 code {
+  font-size: inherit; }
+
+h6 tt, h6 code {
+  font-size: inherit; }
+
+h1 {
+  font-size: 28px;
+  color: black; }
+
+h2 {
+  font-size: 24px;
+  border-bottom: 1px solid #cccccc;
+  color: black; }
+
+h3 {
+  font-size: 18px; }
+
+h4 {
+  font-size: 16px; }
+
+h5 {
+  font-size: 14px; }
+
+h6 {
+  color: #777777;
+  font-size: 14px; }
+
+p, blockquote, ul, ol, dl, li, table, pre {
+  margin: 15px 0; }
+
+hr {
+  background: transparent url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAYAAAAECAYAAACtBE5DAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyJpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNSBNYWNpbnRvc2giIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6OENDRjNBN0E2NTZBMTFFMEI3QjRBODM4NzJDMjlGNDgiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6OENDRjNBN0I2NTZBMTFFMEI3QjRBODM4NzJDMjlGNDgiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDo4Q0NGM0E3ODY1NkExMUUwQjdCNEE4Mzg3MkMyOUY0OCIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDo4Q0NGM0E3OTY1NkExMUUwQjdCNEE4Mzg3MkMyOUY0OCIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PqqezsUAAAAfSURBVHjaYmRABcYwBiM2QSA4y4hNEKYDQxAEAAIMAHNGAzhkPOlYAAAAAElFTkSuQmCC) repeat-x 0 0;
+  border: 0 none;
+  color: #cccccc;
+  height: 4px;
+  padding: 0;
+}
+
+body > h2:first-child {
+  margin-top: 0;
+  padding-top: 0; }
+body > h1:first-child {
+  margin-top: 0;
+  padding-top: 0; }
+  body > h1:first-child + h2 {
+    margin-top: 0;
+    padding-top: 0; }
+body > h3:first-child, body > h4:first-child, body > h5:first-child, body > h6:first-child {
+  margin-top: 0;
+  padding-top: 0; }
+
+a:first-child h1, a:first-child h2, a:first-child h3, a:first-child h4, a:first-child h5, a:first-child h6 {
+  margin-top: 0;
+  padding-top: 0; }
+
+h1 p, h2 p, h3 p, h4 p, h5 p, h6 p {
+  margin-top: 0; }
+
+li p.first {
+  display: inline-block; }
+li {
+  margin: 0; }
+ul, ol {
+  padding-left: 30px; }
+
+ul :first-child, ol :first-child {
+  margin-top: 0; }
+
+dl {
+  padding: 0; }
+  dl dt {
+    font-size: 14px;
+    font-weight: bold;
+    font-style: italic;
+    padding: 0;
+    margin: 15px 0 5px; }
+    dl dt:first-child {
+      padding: 0; }
+    dl dt > :first-child {
+      margin-top: 0; }
+    dl dt > :last-child {
+      margin-bottom: 0; }
+  dl dd {
+    margin: 0 0 15px;
+    padding: 0 15px; }
+    dl dd > :first-child {
+      margin-top: 0; }
+    dl dd > :last-child {
+      margin-bottom: 0; }
+
+blockquote {
+  border-left: 4px solid #dddddd;
+  padding: 0 15px;
+  color: #777777; }
+  blockquote > :first-child {
+    margin-top: 0; }
+  blockquote > :last-child {
+    margin-bottom: 0; }
+
+table {
+  padding: 0;border-collapse: collapse; }
+  table tr {
+    border-top: 1px solid #cccccc;
+    background-color: white;
+    margin: 0;
+    padding: 0; }
+    table tr:nth-child(2n) {
+      background-color: #f8f8f8; }
+    table tr th {
+      font-weight: bold;
+      border: 1px solid #cccccc;
+      margin: 0;
+      padding: 6px 13px; }
+    table tr td {
+      border: 1px solid #cccccc;
+      margin: 0;
+      padding: 6px 13px; }
+    table tr th :first-child, table tr td :first-child {
+      margin-top: 0; }
+    table tr th :last-child, table tr td :last-child {
+      margin-bottom: 0; }
+
+img {
+  max-width: 100%; }
+
+span.frame {
+  display: block;
+  overflow: hidden; }
+  span.frame > span {
+    border: 1px solid #dddddd;
+    display: block;
+    float: left;
+    overflow: hidden;
+    margin: 13px 0 0;
+    padding: 7px;
+    width: auto; }
+  span.frame span img {
+    display: block;
+    float: left; }
+  span.frame span span {
+    clear: both;
+    color: #333333;
+    display: block;
+    padding: 5px 0 0; }
+span.align-center {
+  display: block;
+  overflow: hidden;
+  clear: both; }
+  span.align-center > span {
+    display: block;
+    overflow: hidden;
+    margin: 13px auto 0;
+    text-align: center; }
+  span.align-center span img {
+    margin: 0 auto;
+    text-align: center; }
+span.align-right {
+  display: block;
+  overflow: hidden;
+  clear: both; }
+  span.align-right > span {
+    display: block;
+    overflow: hidden;
+    margin: 13px 0 0;
+    text-align: right; }
+  span.align-right span img {
+    margin: 0;
+    text-align: right; }
+span.float-left {
+  display: block;
+  margin-right: 13px;
+  overflow: hidden;
+  float: left; }
+  span.float-left span {
+    margin: 13px 0 0; }
+span.float-right {
+  display: block;
+  margin-left: 13px;
+  overflow: hidden;
+  float: right; }
+  span.float-right > span {
+    display: block;
+    overflow: hidden;
+    margin: 13px auto 0;
+    text-align: right; }
+
+code, tt {
+  margin: 0 2px;
+  padding: 0 5px;
+  white-space: nowrap;
+  border: 1px solid #eaeaea;
+  background-color: #f8f8f8;
+  border-radius: 3px; }
+
+pre code {
+  margin: 0;
+  padding: 0;
+  white-space: pre;
+  border: none;
+  background: transparent; }
+
+.highlight pre {
+  background-color: #f8f8f8;
+  border: 1px solid #cccccc;
+  font-size: 13px;
+  line-height: 19px;
+  overflow: auto;
+  padding: 6px 10px;
+  border-radius: 3px; }
+
+pre {
+  background-color: #f8f8f8;
+  border: 1px solid #cccccc;
+  font-size: 13px;
+  line-height: 19px;
+  overflow: auto;
+  padding: 6px 10px;
+  border-radius: 3px; }
+  pre code, pre tt {
+    background-color: transparent;
+    border: none; }
+
+sup {
+    font-size: 0.83em;
+    vertical-align: super;
+    line-height: 0;
+}
+
+kbd {
+  display: inline-block;
+  padding: 3px 5px;
+  font-size: 11px;
+  line-height: 10px;
+  color: #555;
+  vertical-align: middle;
+  background-color: #fcfcfc;
+  border: solid 1px #ccc;
+  border-bottom-color: #bbb;
+  border-radius: 3px;
+  box-shadow: inset 0 -1px 0 #bbb
+}
+
+* {
+	-webkit-print-color-adjust: exact;
+}
+@media screen and (min-width: 914px) {
+    body {
+        width: 854px;
+        margin:0 auto;
+    }
+}
+@media print {
+	table, pre {
+		page-break-inside: avoid;
+	}
+	pre {
+		word-wrap: break-word;
+	}
+  body {
+    padding: 2cm; 
+  }
+}
+</style>
+
+
+</head>
+
+<body>
+
+<style>
+h1{
+color:#399939
+}
+
+h2{
+  border-bottom: solid 3px #98fb98
+}
+.img{text-align:center
+}
+
+h3{
+  border-bottom: solid 1px gray
+}
+.img{text-align:center
+}
+
+
+</style>
+
+<h1 id="toc_0">最新のデジタル地図技術を用いて地形と防災情報を分析しよう！開催概要</h1>
+
+<p>ひらめき☆ときめきサイエンス「最新のデジタル地図技術を用いて地形と防災情報を分析しよう！」の開催概要、注意事項についてまとめたページです。本ページは申込者への連絡を想定したもので、新たに参加者を募集するためのページではありません。（2026/6/13更新）</p>
+
+<ul>
+<li><a href="#1">開催概要</a></li>
+<li><a href="#2">持ち物</a></li>
+<li><a href="#3">アクセス</a></li>
+<li><a href="#4">注意事項</a></li>
+<li><a href="#5">Q&amp;A</a></li>
+</ul>
+
+<div class="img"> <img src="./hiratoki_poster_2026.jpg" width=300px></div>
+
+<h2 id="toc_1"><a name="0"></a>開催概要</h2>
+
+<ul>
+<li>日時：7月26日（日）10：00～17：00</li>
+<li>場所：千葉県柏市柏の葉5-1-5　東京大学空間情報科学研究センター</li>
+<li>対象：中学生2年生〜高校生</li>
+<li>講師：<a href="http://oguchaylab.csis.u-tokyo.ac.jp/members.html">小口 高</a>、<a href="https://yurikoyazawa.wixsite.com/yazawayuriko">矢澤 優理子</a>（東京大）、<a href="https://www.geoguraphy.com/">小倉拓郎</a>（一橋大/東京大）、<a href="https://researchmap.jp/hyamauchi/">山内啓之</a>（立命館大学/東京大）ほか</li>
+<li>内容：本プログラムは、地理情報システム、3Dプリンタ、VR機材を用いて防災や地形について実習形式で解説するものです。詳細は、<a href="https://www.jsps.go.jp/file/storage/kaken_hirameki_26/26ht0033.pdf">こちら</a>から確認してください。</li>
+<li>申し込み方法は、<a href="https://www.jsps.go.jp/j-hirameki/02_jisshi_program.html">https://www.jsps.go.jp/j-hirameki/02<em>jisshi</em>program.html</a>を確認ください。本プログラムは、PDF４枚目の千葉県欄に記載があります。</li>
+</ul>
+
+<h2 id="toc_2"><a name="1"></a>プログラム</h2>
+
+<table>
+<thead>
+<tr>
+<th>時間</th>
+<th style="text-align: center">内容</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td>9:30〜10:00</td>
+<td style="text-align: center">受付（集合場所:柏キャンパス総合研究棟 6F）</td>
+</tr>
+<tr>
+<td>10:00〜10:10</td>
+<td style="text-align: center">開講式（あいさつ、科研費の説明）</td>
+</tr>
+<tr>
+<td>10:10〜10:30</td>
+<td style="text-align: center">講義「GIS とは?地理空間情報とその活用」（終了後 10 分休憩）</td>
+</tr>
+<tr>
+<td>10:40〜12:10</td>
+<td style="text-align: center">実習 1「GIS を用いた Web ハザードマップの読み取りと分析」</td>
+</tr>
+<tr>
+<td>12:10〜13:00</td>
+<td style="text-align: center">昼食</td>
+</tr>
+<tr>
+<td>13:00〜14:30</td>
+<td style="text-align: center">実習 2「GIS を用いた地形と災害情報の分析」（終了後 10 分休憩）</td>
+</tr>
+<tr>
+<td>14:40〜15:05</td>
+<td style="text-align: center">クッキータイム・大学生との交流・質疑応答（終了後 5 分休憩）</td>
+</tr>
+<tr>
+<td>15:10〜16:40</td>
+<td style="text-align: center">実習 3「VR、3D プリントによる地形・災害情報の可視化」（終了後 5 分休憩）</td>
+</tr>
+<tr>
+<td>16:45〜17:00</td>
+<td style="text-align: center">修了式（アンケート記入、未来博士号授与）</td>
+</tr>
+<tr>
+<td>17:00</td>
+<td style="text-align: center">終了、解散</td>
+</tr>
+</tbody>
+</table>
+
+<blockquote>
+<p>昼休憩時には、ランチタイムトークとして、昼食をとりながら聞ける講演（20分程度）を予定する可能性があります。</p>
+</blockquote>
+
+<h2 id="toc_3"><a name="2"></a>持ち物、服装</h2>
+
+<ul>
+<li>筆記用具</li>
+<li>お弁当</li>
+<li>飲み物（当日、お茶の配布もあります）</li>
+<li>動きやすい服装</li>
+<li>ゴミ袋（各自のゴミを持ち帰る用の袋）</li>
+<li>Windowsのノートパソコン（可能な方のみ）</li>
+<li>スマートフォン（可能な方のみ）</li>
+</ul>
+
+<h2 id="toc_4"><a name="3"></a>アクセス</h2>
+
+<p>東京大学柏キャンパスへのアクセスは、<a href="http://www.csis.u-tokyo.ac.jp/location/">東京大学CSISホームページ</a>をご確認ください。構内の駐車は不可ですので、可能な限り公共交通機関をご利用ください。</p>
+
+<h2 id="toc_5"><a name="4"></a>注意事項</h2>
+
+<table>
+<thead>
+<tr>
+<th>注意事項</th>
+<th>対応</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td>申し込み者は、必ず当日の朝、体温を計測してください。</td>
+<td>平熱を超える場合や風邪の症状がある場合は参加できません。</td>
+</tr>
+<tr>
+<td>欠席、遅刻等の連絡</td>
+<td>申し込み後に案内を送付します。何かご要望があればそのメールアドレスにご連絡ください。欠席の際は、円滑なプログラムの実施のため、お早めにお知らせください。</td>
+</tr>
+<tr>
+<td>自然災害のおそれがある場合による中止</td>
+<td>当日、プログラムの開催が困難と判断した場合、午前8時までに参加者へ中止の連絡をします。</td>
+</tr>
+<tr>
+<td>自動車の駐車（構内での駐車不可）</td>
+<td>自動車でお越しになる場合は、構内での駐車が不可のため周辺の有料駐車場等をご利用ください。</td>
+</tr>
+<tr>
+<td>保険加入</td>
+<td>こちらで、受講生全員を対象としたレクリエーション保険に加入しています。</td>
+</tr>
+</tbody>
+</table>
+
+<h2 id="toc_6"><a name="5"></a>Q＆A</h2>
+
+<p>以下は過去に、実際にあった質問と回答です。本年度も全員と関連する質問をいただいた場合は、質問の概要とその回答を順次追加します。原則、電話による質問対応はできかねますため、お問い合わせの場合はメールでの連絡をお願いいたします。</p>
+
+<h3 id="toc_7">Q.同伴者（保護者など）は、プログラムを見学できますか？</h3>
+
+<p>A.会場の広さの都合上、事前に参加希望をお知らせください。</p>
+
+<h3 id="toc_8">Q.同伴者の休憩スペースは、ありますか？</h3>
+
+<p>A. ございません。同伴者は受講者とともに移動していただきます（各教室の後ろで椅子にすわり、プログラムを見学ください）。</p>
+
+<h3 id="toc_9">Q.当日の都合が変わり、終日参加が難しいですが途中退場は可能ですか？</h3>
+
+<p>A. 問題ありませんが、参加証授与等の関係があるため、事前に連絡をください。</p>
+
+<h3 id="toc_10">学食は利用できますか？</h3>
+
+<p>A. 当日は、構内のすべての学食が空いていません。参加者は、必ず昼食をご持参ください。※大学（会場）の最寄りに、ファミリーマートがあります。</p>
+
+<h3 id="toc_11">Q.当日に参加者（同伴者含む）が利用できるWi-Fiはありますか？</h3>
+
+<p>A. 設備やセキュリティ対策などの点で、イベント以外の用途でWi-Fiを利用いただくことはできません。参加者向けにWi-FiのIDとPASSを配布することもありません。</p>
+
+
+
+
+</body>
+
+</html>
