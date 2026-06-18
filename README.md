@@ -37,7 +37,9 @@ h3{
 - 対象：中学生2年生〜高校生
 - 講師：[小口 高](http://oguchaylab.csis.u-tokyo.ac.jp/members.html)、[矢澤 優理子](https://yurikoyazawa.wixsite.com/yazawayuriko)（東京大）、[小倉拓郎](https://www.geoguraphy.com/)（一橋大/東京大）、[山内啓之](https://researchmap.jp/hyamauchi/)（立命館大学/東京大）ほか
 - 内容：本プログラムは、地理情報システム、3Dプリンタ、VR機材を用いて防災や地形について実習形式で解説するものです。詳細は、[こちら](https://www.jsps.go.jp/file/storage/kaken_hirameki_26/26ht0033.pdf)から確認してください。
-- 申し込み方法は、[https://www.jsps.go.jp/j-hirameki/02_jisshi_program.html](https://www.jsps.go.jp/j-hirameki/02_jisshi_program.html)を確認ください。本プログラムは、PDF４枚目の千葉県欄に記載があります。
+- 申し込みは、[https://bit.ly/4gnyB8Z](https://bit.ly/4gnyB8Z)からも行えます。
+
+> ひらめき☆ときめきサイエンスの公式ページは、[https://www.jsps.go.jp/j-hirameki/02_jisshi_program.html](https://www.jsps.go.jp/j-hirameki/02_jisshi_program.html)です。本プログラムは、PDF４枚目の千葉県欄に記載があります。お問い合わせの先からの申し込みと説明がありますが、上記のフォームからお申し込みください。
 
 ## <a name="1"></a>プログラム
 
