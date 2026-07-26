@@ -35,7 +35,7 @@ h3{
 - 日時：7月26日（日）10：00～17：00
 - 場所：千葉県柏市柏の葉5-1-5　東京大学空間情報科学研究センター
 - 対象：中学生2年生〜高校生
-- 講師：[小口 高](http://oguchaylab.csis.u-tokyo.ac.jp/members.html)、[矢澤 優理子](https://yurikoyazawa.wixsite.com/yazawayuriko)（東京大）、[小倉拓郎](https://www.geoguraphy.com/)（一橋大/東京大）、[山内啓之](https://researchmap.jp/hyamauchi/)（立命館大学/東京大）ほか
+- 講師：[小口 高](http://oguchaylab.csis.u-tokyo.ac.jp/members.html)、[矢澤 優理子](https://yurikoyazawa.wixsite.com/yazawayuriko)、Wang Ruci（東京大）、[小倉拓郎](https://www.geoguraphy.com/)（一橋大/東京大）、[山内啓之](https://researchmap.jp/hyamauchi/)（立命館大学/東京大）ほか
 - 内容：本プログラムは、地理情報システム、3Dプリンタ、VR機材を用いて防災や地形について実習形式で解説するものです。詳細は、[こちら](https://www.jsps.go.jp/file/storage/kaken_hirameki_26/26ht0033.pdf)から確認してください。
 - 申し込みは、[https://bit.ly/4gnyB8Z](https://bit.ly/4gnyB8Z)からも行えます。
 
@@ -56,7 +56,7 @@ h3{
 |16:45〜17:00|修了式（アンケート記入、未来博士号授与）|
 |17:00|終了、解散|
 
-> 昼休憩時には、ランチタイムトークとして、昼食をとりながら聞ける講演（20分程度）を予定する可能性があります。
+> 昼休憩時には、ランチタイムトーク（）として、昼食をとりながら聞ける講演（20分程度）を予定する可能性があります。
 
 ## <a name="2"></a>持ち物、服装
 
