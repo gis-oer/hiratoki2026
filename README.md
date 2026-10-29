@@ -32,7 +32,7 @@ h3{
 
 ## <a name="0"></a>開催概要
 
-- 日時：12月19日（日）10：00～17：00
+- 日時：12月19日（土）10：00～17：00
 - 場所：千葉県柏市柏の葉5-1-5　東京大学空間情報科学研究センター
 - 対象：中学生2年生〜高校生
 - 講師：[小口 高](http://oguchaylab.csis.u-tokyo.ac.jp/members.html)、[矢澤 優理子](https://yurikoyazawa.wixsite.com/yazawayuriko)、Wang Ruci（東京大）、[小倉拓郎](https://www.geoguraphy.com/)（一橋大/東京大）、[山内啓之](https://researchmap.jp/hyamauchi/)（立命館大学/東京大）ほか
